@@ -1,24 +1,13 @@
-import com.ibm.xtools.umlnotation.UmlnotationPackage;
 import org.eclipse.emf.common.util.URI;
-import org.eclipse.emf.ecore.EPackage;
-import org.eclipse.emf.ecore.resource.Resource;
-import org.eclipse.emf.ecore.resource.ResourceSet;
-import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
-import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
-import org.eclipse.papyrus.interoperability.rsa.RSAToPapyrusParameters.Config;
-import org.eclipse.papyrus.interoperability.rsa.RSAToPapyrusParameters.RSAToPapyrusParametersFactory;
-import org.eclipse.papyrus.interoperability.rsa.blackbox.RTMappings;
-import org.eclipse.papyrus.interoperability.rsa.default_.DefaultPackage;
-import org.eclipse.papyrus.interoperability.rsa.internal.ConfigurationManager;
-import org.eclipse.papyrus.interoperability.rsa.internal.extended.ConfigurationManagerNoUI;
-import org.eclipse.uml2.uml.UMLPackage;
-import org.eclipse.uml2.uml.internal.resource.UML212UMLResourceFactoryImpl;
-import org.eclipse.uml2.uml.resource.UMLResource;
+import org.eclipse.emf.ecore.xmi.XMLResource;
+import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSet;
+import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSetImpl;
+import org.eclipse.uml2.uml.util.UMLUtil;
 
 public class RSAModelParser {
     public static void main(String[] args){
-        URI modelFileURI = URI.createFileURI("C:/Users/qdni/Desktop/SimpleCapsuleModel.emx");
-        ResourceSet resourceSet = new ResourceSetImpl();
+        URI modelFileURI = URI.createFileURI("C:/Users/dnikeshk/Desktop/SimpleCapsuleModel.emx");
+//        ResourceSet resourceSet = new ResourceSetImpl();
 //        Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap( ).put( "uml", UMLResource.Factory.INSTANCE);
 //        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put(UMLResource.FILE_EXTENSION, UMLResource.Factory.INSTANCE);
 //        EPackage.Registry.INSTANCE.put("http://www.eclipse.org/uml2/3.0.0/UML", UMLPackage.eINSTANCE);
@@ -28,8 +17,25 @@ public class RSAModelParser {
 //        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new XMIResourceFactoryImpl());
 //        Resource resource = resourceSet.getResource(modelFileURI, true);
 //        Config config = RSAToPapyrusParametersFactory.eINSTANCE.createConfig();
-        ConfigurationManagerNoUI configMan = new ConfigurationManagerNoUI();
+//        ConfigurationManagerNoUI configMan = new ConfigurationManagerNoUI();
 //        configMan.loadConfig(config);
 //        configMan.saveConfig(config);
+//        Config config = new ExtendedUIConfigImpl();
+//        config.setMaxThreads(2);
+//        config.setConvertOpaqueExpressionToLiteralString(true);
+        MigrationResourceSet resourceSet = new MigrationResourceSetImpl(null);
+        synchronized (UMLUtil.class) {
+            UMLUtil.init(resourceSet);
+        }
+        resourceSet.getLoadOptions().put(XMLResource.OPTION_DEFER_ATTACHMENT, true);
+        resourceSet.getLoadOptions().put(XMLResource.OPTION_DEFER_IDREF_RESOLUTION, true);
+        resourceSet.getLoadOptions().put(XMLResource.OPTION_RECORD_UNKNOWN_FEATURE, Boolean.TRUE);
+        resourceSet.getLoadOptions().put(XMLResource.OPTION_USE_PACKAGE_NS_URI_AS_LOCATION, Boolean.FALSE);
+        try {
+            resourceSet.getResource(modelFileURI, true);
+        } catch (Exception ex) {
+            ex.printStackTrace(System.out);
+        }
+        String test = "dfsfdf";
     }
 }

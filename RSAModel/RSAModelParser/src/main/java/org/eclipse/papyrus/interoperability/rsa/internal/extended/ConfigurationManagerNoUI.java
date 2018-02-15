@@ -8,10 +8,8 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.papyrus.infra.emf.utils.EMFHelper;
-import org.eclipse.papyrus.interoperability.rsa.Activator;
 import org.eclipse.papyrus.interoperability.rsa.RSAToPapyrusParameters.Config;
 import org.eclipse.papyrus.interoperability.rsa.RSAToPapyrusParameters.RSAToPapyrusParametersFactory;
-import org.eclipse.papyrus.interoperability.rsa.internal.ConfigurationManager;
 
 import java.io.IOException;
 
@@ -65,15 +63,15 @@ public class ConfigurationManagerNoUI {
     }
 
     public void saveConfig(Config newConfig) {
-        try {
-            if (newConfig == null) {
-                // Delete the saved configuration
-                configResource.delete(null);
-            } else if (!EcoreUtil.equals(config, newConfig)) {
-                EcoreUtil.replace(config, EcoreUtil.copy(newConfig));
-                configResource.save(null);
-            }
-        } catch (IOException e) {
-        }
+//        try {
+//            if (newConfig == null) {
+//                // Delete the saved configuration
+//                configResource.delete(null);
+//            } else if (!EcoreUtil.equals(config, newConfig)) {
+//                EcoreUtil.replace(config, EcoreUtil.copy(newConfig));
+//                configResource.save(null);
+//            }
+//        } catch (IOException e) {
+//        }
     }
 }
