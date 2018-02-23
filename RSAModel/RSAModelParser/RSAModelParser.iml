@@ -8,46 +8,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/ecore-xmi-2.2.3.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/importer-2.3.0-v200706262000.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/jnlp.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.umlnotation_7.60.0.v20171213_0911.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.gmf.runtime.notation-1.8.0.201405281433.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/workbench-3.3.0-I20070608-1100.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.emf.common-2.12.0.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.rmp.ui.diagram.notation_1.0.300.v20171213_0911.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.uml2.common-1.5.0.v201005031530.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.core.runtime-3.7.0.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.uml2.uml-3.1.0.v201006071150.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.equinox.common-3.6.0.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.ui-3.5.0.I20090604-2000.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/providers-1.0.1-v20070601-1400.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.osgi.core-4.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.osgi.core-4.3.0.jar!/OSGI-OPT/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.papyrus.interoperability.rsa_1.4.0.201706271239.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.equinox.preferences-3.4.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -84,6 +50,402 @@
       <library>
         <CLASSES>
           <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.ecore_2.13.0.v20170609-0707.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/doc/org.eclipse.emf.cheatsheets/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/doc/org.eclipse.emf.examples.jet.article2/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.databinding.project.core.model/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.databinding.project.core/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.databinding.project.ui.rcp/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.generator.validator/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.library.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.library.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.examples.library/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.exporter.html/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.java.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.java.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/examples/org.eclipse.emf.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ant/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ant/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen.ecore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen.ecore.xtext.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen.ecore.xtext/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.codegen/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.common.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.common/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.converter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.databinding.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.databinding/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.change.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.change/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.exporter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.importer/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.lib/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.ui/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore.ui/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xcore/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore.xmi/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.edit.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.exporter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.ecore/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.java/examples/library/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.java/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer.rose/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.importer/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping.ecore2ecore.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping.ecore2ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping.ecore2xml.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping.ecore2xml/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.mapping/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.oda.ecore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.oda.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.rap.common.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/plugins/org.eclipse.emf.rap.edit.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/releng/org.eclipse.emf.releng/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.codegen.ecore.xtext/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.common/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.core/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.databinding.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.databinding/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.ecore.xcore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.ecore.xcore/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.ecore.xcore/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.edit.ui.platform/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.edit.ui.rap/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.examples/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/jetcompiler" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/jetemitter" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/facade.ast/FieldsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/facade.ast/MethodsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/facade.ast/SplitFieldsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/bugzilla/163856" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge0" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byPrefixAndUUID" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byUUID" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byUUIDandMethodReturn" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/changeParameters1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/changeParameters2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/setName" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/readme/example1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/readme/example2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/various/commentsWithoutUserSection" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/various/extra.classes" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment-enumconstants" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment-split-fields" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/merge0" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/merge1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotationOnBlockedMethod" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotations1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotations2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.tools/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf/tests/org.eclipse.emf.test.xml/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.cheatsheets/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.examples.jet.article2/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.core.model/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.core/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.ui.rcp/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.generator.validator/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.library.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.library.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.library/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.exporter.html/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.java.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.java.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ant/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ant/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.xtext.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.xtext/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.common.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.common/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.converter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.databinding.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.databinding/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.change.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.change/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.exporter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.importer/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.lib/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.ui/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.ui/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xmi/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.edit.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.exporter/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.common/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.common/src/org/eclipse/emf/emul" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore.change/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.edit.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.ecore/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/examples/library/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.rose/tasks" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2ecore.editor/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2xml.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2xml/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.oda.ecore.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.oda.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.rap.common.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.rap.edit.ui/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/releng/org.eclipse.emf.releng/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.codegen.ecore.xtext/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.common/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.core/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.databinding.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.databinding/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/src-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/xtend-gen" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.edit/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.examples/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/jetcompiler" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/jetemitter" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/1.4_5.0/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.java/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/creation/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.ecore/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.rose/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.xsd/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/ant.expected/models/5.0/reload/library.xsds/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/facade.ast/FieldsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/facade.ast/MethodsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/facade.ast/SplitFieldsTest" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/bugzilla/163856" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge0" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/commentHandling/merge2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byPrefixAndUUID" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byUUID" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/byUUIDandMethodReturn" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/changeParameters1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/changeParameters2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/matchRules/setName" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/readme/example1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/readme/example2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/various/commentsWithoutUserSection" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java1.4/various/extra.classes" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment-enumconstants" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/comment-split-fields" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/merge0" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/sweepActions/merge1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotationOnBlockedMethod" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotations1" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data/merge.input/java5/various/annotations2" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/src" />
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.xml/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.uml_5.3.0.v20170605-1616.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.common_2.1.0.v20170605-1616.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.mapping.ecore2xml_2.9.0.v20170609-0928.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.ecore.xmi_2.13.0.v20170609-0707.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xmi/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.common_2.13.0.v20170609-0707.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.osgi_3.12.0.v20170512-1932.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.types_2.0.0.v20170605-1616.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.rmp.ui.diagram.notation_1.0.300.v20171213_0911.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.umlnotation_7.60.0.v20171213_0911.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.gmf.runtime.notation-1.8.0.201405281433.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.papyrusrt.umlrt.migration.rsa_1.0.0.201707181457.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
