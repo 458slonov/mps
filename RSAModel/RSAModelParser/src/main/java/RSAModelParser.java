@@ -15,8 +15,10 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.uml2.uml.Model;
 import org.eclipse.uml2.uml.internal.resource.UML302UMLResourceFactoryImpl;
+import org.eclipse.uml2.uml.internal.resource.UMLResourceFactoryImpl;
 import org.eclipse.uml2.uml.resource.UML302UMLResource;
 import org.eclipse.uml2.uml.resource.UMLResource;
+import org.eclipse.uml2.uml.resources.util.UMLResourcesUtil;
 import org.eclipse.uml2.uml.util.UMLUtil;
 import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSet;
 import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSetImpl;
@@ -83,6 +85,8 @@ public class RSAModelParser {
 
     public static void main(String[] args){
         URI modelFileURI = URI.createFileURI("C:/Users/"+System.getProperty("user.name")+"/Desktop/PingPong.emx");
+//        URI modelFileURI = URI.createFileURI("C:/Users/"+System.getProperty("user.name")+"/Desktop/PingPong.uml");
+//        URI modelFileURI = URI.createFileURI("C:/Users/"+System.getProperty("user.name")+"/Desktop/PingPong_Cut.uml");
 //        init();
 //        Model model = loadModel(modelFileURI);
 
@@ -91,12 +95,15 @@ public class RSAModelParser {
          */
 //
             ResourceSet resourceSet = new ResourceSetImpl();
-            resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new UML302UMLResourceFactoryStandAloneImpl());
-            UMLUtil.init(resourceSet);
-            EPackage.Registry.INSTANCE.put("http://www.eclipse.org/uml2/3.0.0/UML", UMLPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http://www.ibm.com/xtools/1.5.3/Umlnotation", UmlnotationPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2", DefaultPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119", UMLRealTimePackage.eINSTANCE);
+//            resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new UML302UMLResourceFactoryStandAloneImpl());
+            resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new UMLResourceFactoryImpl());
+//            resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("uml", new UML302UMLResourceFactoryStandAloneImpl());
+//            resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("uml", new UMLResourceFactoryImpl());
+//            UMLResourcesUtil.init(null);
+//            EPackage.Registry.INSTANCE.put("http://www.eclipse.org/uml2/3.0.0/UML", UMLPackage.eINSTANCE);
+//            resourceSet.getPackageRegistry().put("http://www.ibm.com/xtools/1.5.3/Umlnotation", UmlnotationPackage.eINSTANCE);
+//            resourceSet.getPackageRegistry().put("http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2", DefaultPackage.eINSTANCE);
+//            resourceSet.getPackageRegistry().put("http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119", UMLRealTimePackage.eINSTANCE);
             Resource resource = resourceSet.getResource(modelFileURI, true);
 
 
