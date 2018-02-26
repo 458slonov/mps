@@ -13,42 +13,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.papyrus.interoperability.rsa_1.4.0.201706271239.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.swt.win32.win32.x86_64_3.106.0.v20170608-0516.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.jface_3.13.0.v20170503-1507.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.papyrus.infra.emf_3.0.0.201706140736.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.ecore_2.13.0.v20170609-0707.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -335,35 +299,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.common_2.1.0.v20170605-1616.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.mapping.ecore2xml_2.9.0.v20170609-0928.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.ecore.xmi_2.13.0.v20170609-0707.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xmi/src" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.common_2.13.0.v20170609-0707.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -373,97 +308,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.core.runtime_3.13.0.v20170207-1030.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.osgi_3.12.0.v20170512-1932.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.equinox.common_3.9.0.v20170207-1454.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.types_2.0.0.v20170605-1616.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.rmp.ui.diagram.notation_1.0.300.v20171213_0911.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/com.ibm.xtools.umlnotation_7.60.0.v20171213_0911.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Import Dependencies/org.eclipse.gmf.runtime.notation-1.8.0.201405281433.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.papyrusrt.umlrt.migration.rsa_1.0.0.201707181457.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.uml.resources_5.3.0.v20170605-1616.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.uml2.uml.profile.standard_1.0.100.v20170605-1616.jar!/" />
+          <root url="jar://D:/Papyrus-RT/plugins/org.eclipse.emf.ecore.xmi_2.13.0.v20170609-0707.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
