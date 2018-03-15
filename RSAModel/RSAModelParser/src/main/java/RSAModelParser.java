@@ -17,6 +17,7 @@ import org.eclipse.uml2.uml.Model;
 import org.eclipse.uml2.uml.internal.resource.UML302UMLResourceFactoryImpl;
 import org.eclipse.uml2.uml.resource.UML302UMLResource;
 import org.eclipse.uml2.uml.resource.UMLResource;
+import org.eclipse.uml2.uml.resources.util.UMLResourcesUtil;
 import org.eclipse.uml2.uml.util.UMLUtil;
 import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSet;
 import org.eclipse.papyrus.interoperability.rsa.transformation.MigrationResourceSetImpl;
@@ -30,6 +31,7 @@ import org.eclipse.core.runtime.Platform;
 import java.io.File;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class RSAModelParser {
 
@@ -92,12 +94,11 @@ public class RSAModelParser {
 //
             ResourceSet resourceSet = new ResourceSetImpl();
             resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new UML302UMLResourceFactoryStandAloneImpl());
-            UMLUtil.init(resourceSet);
-            EPackage.Registry.INSTANCE.put("http://www.eclipse.org/uml2/3.0.0/UML", UMLPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http://www.ibm.com/xtools/1.5.3/Umlnotation", UmlnotationPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2", DefaultPackage.eINSTANCE);
-            resourceSet.getPackageRegistry().put("http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119", UMLRealTimePackage.eINSTANCE);
+            UMLResourcesUtil.init(resourceSet);
+
             Resource resource = resourceSet.getResource(modelFileURI, true);
+        Consumer<String> test = System.out::print;
+        test.accept("TEST");
 
 
 
@@ -142,7 +143,6 @@ public class RSAModelParser {
 //        } catch (Exception ex) {
 //            ex.printStackTrace(System.out);
 //        }
-        String test = "dfsfdf";
     }
 
 }
