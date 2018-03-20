@@ -2,7 +2,9 @@ import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
+import org.eclipse.papyrus.interoperability.rsa.default_.DefaultPackage;
 import org.eclipse.papyrus.interoperability.rsa.internal.extended.UMLResourcesUtilExtended;
+import org.eclipse.papyrus.interoperability.rsa.umlnotation.PapyrusUMLNotationPackage;
 import org.eclipse.papyrusrt.umlrt.tooling.rsa.umlrt.UMLRealTimePackage;
 import org.eclipse.uml2.uml.resources.util.UMLResourcesUtil;
 
@@ -68,11 +70,14 @@ public class RSAModelParser {
          */
 //
         ResourceSet resourceSet = new ResourceSetImpl();
-
-        UMLResourcesUtilExtended.init(resourceSet);
-        UMLResourcesUtilExtended.initLocalRegistries(resourceSet);
-        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("uml", new UML302UMLResourceFactoryStandAloneImpl());
+//        UMLResourcesUtilExtended.init(resourceSet);
+//        UMLResourcesUtilExtended.initLocalRegistries(resourceSet);
+        UMLResourcesUtil.init(resourceSet);
+        UMLResourcesUtil.initLocalRegistries(resourceSet);
+//        resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("emx", new UML302UMLResourceFactoryStandAloneImpl());
         resourceSet.getPackageRegistry().put("http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119", UMLRealTimePackage.eINSTANCE);
+        resourceSet.getPackageRegistry().put("http://www.ibm.com/xtools/1.5.3/Umlnotation", PapyrusUMLNotationPackage.eINSTANCE);
+        resourceSet.getPackageRegistry().put("http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2", DefaultPackage.eINSTANCE);
 
         Resource resource = resourceSet.getResource(modelFileURI, true);
         Consumer<String> test = System.out::print;
