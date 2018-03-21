@@ -7,25 +7,18 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <content url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0">
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/src-gen" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13">
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.databinding/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.exporter.html/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.common/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.change/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.exporter/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.common/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.editor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.rap.edit.ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.java/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.xml/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.common/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/xtend-gen" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.tools/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.oda.ecore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.examples.jet.article2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.rap.common.ui/src" isTestSource="false" />
@@ -33,8 +26,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.doc/tutorials/jet2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.core.model/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xmi/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.codegen.ecore.xtext/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.databinding/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.common.ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.lib/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.cheatsheets/src" isTestSource="false" />
@@ -49,16 +40,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.exporter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore.change/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ant/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.ecore.xcore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.xtext.ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.databinding.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.rose/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ant/tasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.edit.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.databinding.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.common/src/org/eclipse/emf/emul" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore/xtend-gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.oda.ecore.ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/releng/org.eclipse.emf.releng/src" isTestSource="false" />
@@ -67,7 +53,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.generator.validator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.ui.rcp/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.ui/src-gen" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.core/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/tasks" isTestSource="false" />
@@ -75,64 +60,23 @@
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2xml/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.change.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/doc/org.eclipse.emf.doc/tutorials/clibmod" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.rose/tasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.examples/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2xml.ui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ant/examples/jmerger" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.library.editor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.ecore/tasks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.java.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.converter/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/tests/org.eclipse.emf.test.examples/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.xtext/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.codegen.ecore.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.importer.java/examples/library/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.databinding.project.core/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.edit.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.gwt.ecore.edit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.mapping.ecore2ecore/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/examples/org.eclipse.emf.examples.library/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.emf-2_13/org.eclipse.emf-R2_13_0/plugins/org.eclipse.emf.ecore.xcore.importer/src" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../org.eclipse.uml2">
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/examples/org.eclipse.uml2.examples.uml.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.editor/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/org.eclipse.uml2.uml.profile.l2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/plugins/org.eclipse.uml2.importer.rose/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/tests/org.eclipse.uml2.edit.tests/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.common.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/plugins/org.eclipse.uml2.ecore.importer/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/examples/org.eclipse.uml2.examples.introtoprofiles/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/examples/org.eclipse.uml2.examples.emof2ecore/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/examples/org.eclipse.uml2.examples.gettingstarted/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/plugins/org.eclipse.uml2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.types/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/org.eclipse.uml2.uml.profile.l3/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.profile.standard/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/tests/org.eclipse.uml2.uml.tests/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.ecore.importer/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.codegen.ecore.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.resources/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/examples/org.eclipse.uml2.examples/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/tests/org.eclipse.uml2.ant.tests/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/plugins/org.eclipse.uml2.editor/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.ant/tasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.ecore.importer/tasks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.validation/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.ant/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.codegen.ecore/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.common/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/examples/org.eclipse.uml2.examples.ui/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/plugins/org.eclipse.uml2.uml.ecore.exporter/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/plugins/org.eclipse.uml2.edit/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../org.eclipse.uml2/deprecated/tests/org.eclipse.uml2.tests/src" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

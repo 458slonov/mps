@@ -9,8 +9,8 @@
         <module name="RSAModelParser" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RSAModel" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="RSAModel" target="1.8" />
       <module name="RSAModelParser" target="1.8" />
     </bytecodeTargetLevel>
   </component>

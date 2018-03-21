@@ -1,5 +1,6 @@
 package org.eclipse.papyrus.interoperability.rsa.internal.extended;
 
+import com.oce.resource.extended.UML302UMLResourceExtended;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EcorePackage;
@@ -9,6 +10,11 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.resource.URIConverter;
 import org.eclipse.emf.ecore.xmi.impl.RootXMLContentHandlerImpl;
 import org.eclipse.emf.ecore.xmi.impl.XMLContentHandlerImpl;
+import org.eclipse.papyrus.interoperability.rsa.RSAToPapyrusParameters.RSAToPapyrusParametersPackage;
+import org.eclipse.papyrus.interoperability.rsa.default_.DefaultPackage;
+import org.eclipse.papyrus.interoperability.rsa.profilebase.ProfileBasePackage;
+import org.eclipse.papyrus.interoperability.rsa.umlnotation.PapyrusUMLNotationPackage;
+import org.eclipse.papyrusrt.umlrt.tooling.rsa.umlrt.UMLRealTimePackage;
 import org.eclipse.uml2.types.TypesPackage;
 import org.eclipse.uml2.uml.UMLPackage;
 import org.eclipse.uml2.uml.UMLPlugin;
@@ -270,6 +276,19 @@ public class UMLResourcesUtilExtended extends UMLUtil {
 
         packageRegistry.put(StandardPackage.eNS_URI, StandardPackage.eINSTANCE);
 
+
+        packageRegistry.put("http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119", UMLRealTimePackage.eINSTANCE);
+        packageRegistry.put("http://www.ibm.com/xtools/1.5.3/Umlnotation", PapyrusUMLNotationPackage.eINSTANCE);
+        packageRegistry.put("http://www.eclipse.org/papyrus/umlnotation", PapyrusUMLNotationPackage.eINSTANCE);
+        packageRegistry.put("http://www.eclipse.org/papyrus/profile/default", DefaultPackage.eINSTANCE);
+        packageRegistry.put("http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2", DefaultPackage.eINSTANCE);
+        packageRegistry.put("http:///schemas/Default/1", DefaultPackage.eINSTANCE);
+
+        packageRegistry.put("http://www.eclipse.org/papyrus/profile/profilebase", ProfileBasePackage.eINSTANCE);
+        packageRegistry.put("http:///schemas/ProfileBase/1", ProfileBasePackage.eINSTANCE);
+
+        packageRegistry.put("http:///RSAToPapyrusParameters.ecore", RSAToPapyrusParametersPackage.eINSTANCE);
+
         return packageRegistry;
     }
 
@@ -291,11 +310,27 @@ public class UMLResourcesUtilExtended extends UMLUtil {
                 .getExtensionToFactoryMap();
         extensionToFactoryMap.put(UMLResource.FILE_EXTENSION,
                 UMLResource.Factory.INSTANCE);
+        //TODO perhaps the other factory has to be used
+//        extensionToFactoryMap.put("emx", UML22UMLResource.Factory.INSTANCE);
+//        extensionToFactoryMap.put("emx", UML212UMLResource.Factory.INSTANCE);
+        extensionToFactoryMap.put("emx", UML302UMLResourceExtended.Factory.INSTANCE);
+//        extensionToFactoryMap.put("emx", UML402UMLResource.Factory.INSTANCE);
+//        extensionToFactoryMap.put("emx", UMLResource.Factory.INSTANCE);
+
 
         Map<String, Object> contentTypeToFactoryMap = resourceFactoryRegistry
                 .getContentTypeToFactoryMap();
         contentTypeToFactoryMap.put(UMLResource.UML_CONTENT_TYPE_IDENTIFIER,
                 UMLResource.Factory.INSTANCE);
+
+        contentTypeToFactoryMap.put(UMLResourceExtended.UML_2_0_0_RSA_CONTENT_TYPE_IDENTIFIER,
+                UML22UMLResource.Factory.INSTANCE);
+        contentTypeToFactoryMap.put(UMLResourceExtended.UML_2_1_0_RSA_CONTENT_TYPE_IDENTIFIER,
+                UML212UMLResource.Factory.INSTANCE);
+        contentTypeToFactoryMap.put(UMLResourceExtended.UML_3_0_0_RSA_CONTENT_TYPE_IDENTIFIER,
+                UML302UMLResource.Factory.INSTANCE);
+        contentTypeToFactoryMap.put(UMLResourceExtended.UML_4_0_0_RSA_CONTENT_TYPE_IDENTIFIER,
+                UML402UMLResource.Factory.INSTANCE);
 
         return resourceFactoryRegistry;
     }

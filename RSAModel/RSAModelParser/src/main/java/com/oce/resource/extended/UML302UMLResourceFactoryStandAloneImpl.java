@@ -1,3 +1,5 @@
+package com.oce.resource.extended;
+
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EPackageRegistryImpl;
@@ -23,15 +25,15 @@ import org.eclipse.uml2.uml.resource.UMLResource;
 import java.util.Map;
 
 public class UML302UMLResourceFactoryStandAloneImpl extends UMLResourceFactoryImpl
-        implements UML302UMLResource.Factory {
+        implements UML302UMLResourceExtended.Factory {
     public UML302UMLResourceFactoryStandAloneImpl() {
         super();
     }
 
     @Override
     public Resource createResourceGen(URI uri) {
-        UML302UMLResource result = new UML302UMLResourceImpl(uri);
-        result.setEncoding(UML302UMLResource.DEFAULT_ENCODING);
+        UML302UMLResourceExtended result = new UML302UMLResourceExtendedImpl(uri);
+        result.setEncoding(UML302UMLResourceExtended.DEFAULT_ENCODING);
         return result;
     }
 
@@ -47,12 +49,12 @@ public class UML302UMLResourceFactoryStandAloneImpl extends UMLResourceFactoryIm
 
         ePackageRegistry.put(Ecore2XMLPackage.eNS_URI,
                 Ecore2XMLPackage.eINSTANCE);
-        ePackageRegistry.put(UML302UMLResource.UML_METAMODEL_NS_URI,
+        ePackageRegistry.put(UML302UMLResourceExtended.UML_METAMODEL_NS_URI,
                 UMLPackage.eINSTANCE);
 
         ePackageRegistry
                 .put(
-                        "platform:/plugin/org.eclipse.uml2.uml/model/UML.ecore", UMLPackage.eINSTANCE); //$NON-NLS-1$
+                        "./model/UML.ecore", UMLPackage.eINSTANCE); //$NON-NLS-1$
 
         ResourceSet resourceSet = new ResourceSetImpl();
         resourceSet.setPackageRegistry(ePackageRegistry);
@@ -67,7 +69,7 @@ public class UML302UMLResourceFactoryStandAloneImpl extends UMLResourceFactoryIm
                 Ecore2XMLRegistry.INSTANCE);
         ecore2xmlRegistry
                 .put(
-                        UML302UMLResource.UML_METAMODEL_NS_URI,
+                        UML302UMLResourceExtended.UML_METAMODEL_NS_URI,
                         EcoreUtil
                                 .getObjectByType(
                                         resourceSet
